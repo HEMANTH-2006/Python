@@ -1,1 +1,13 @@
-#
+#to print following pattern like
+'''
+12345
+23451
+34512
+45123
+continues like this till our target
+'''
+n=int(input())
+for i in range(n):
+    for j in range(n):
+        print((i+j) % n + 1, end="")
+    print()
