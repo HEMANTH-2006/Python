@@ -1,11 +1,11 @@
 #to print the following pattern
-''
+'''
     1
    21
   321
  4321
 54321
-''
+'''
 def print_pattern(n):
     for i in range(n):
         # Print leading spaces
