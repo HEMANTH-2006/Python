@@ -11,7 +11,7 @@ def generate_pascals_triangle(n):
         row.append(1)
         triangle.append(row)
 
-    # Print the triangle with proper spacing for alignment
+    # Print the triangle with proper spacing for alignment !
     max_width = len(" ".join(map(str, triangle[-1])))  # The width of the last row as string
     for row in triangle:
         # Join row elements as a string
